@@ -839,15 +839,15 @@ i:before {
 }
 
 .our_skill_inner .single_skill {
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
 
 .our_skill_inner .single_skill h3 {
-  font-size: 15px;
+  font-size: 18px;
   font-family: "Roboto", sans-serif;
   color: #7c8d93;
   font-weight: 500;
-  padding-bottom: 12px;
+  padding-bottom: 15px;
 }
 
 .our_skill_inner .single_skill .progress {
@@ -858,7 +858,7 @@ i:before {
 }
 
 .our_skill_inner .single_skill .progress .progress-bar {
-  background-image: -moz-linear-gradient(0deg, #6ebdfe 0%, #9b8aff 100%);
+  background-image: -moz-linear-gradient(100deg, #6ebdfe 0%, #9b8aff 100%);
   background-image: -webkit-linear-gradient(0deg, #6ebdfe 0%, #9b8aff 100%);
   background-image: -ms-linear-gradient(0deg, #6ebdfe 0%, #9b8aff 100%);
   position: relative;
