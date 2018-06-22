@@ -339,6 +339,12 @@ i:before {
 }
 
 
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 
 
 .banner_area {
@@ -349,7 +355,6 @@ i:before {
 
 .banner_area:before {
   content: "";
-  background: url(../img/banner/banner-bg.png) no-repeat scroll center right;
   position: absolute;
   right: 0px;
   top: 0px;
@@ -571,8 +576,16 @@ i:before {
 /*----------------------------------------------------*/
 /* Feature Area css
 ============================================================================================ */
+
 .feature_area {
   padding-top: 70px;
+	
+	
+}
+
+.responsive {
+	width: 100%;
+	height: auto;
 }
 
 .feature_item {
@@ -581,6 +594,7 @@ i:before {
   -webkit-transition: all 400ms linear 0s;
   -o-transition: all 400ms linear 0s;
   transition: all 400ms linear 0s;
+	
 }
 
 .feature_item .f_icon {
@@ -594,21 +608,24 @@ i:before {
   left: 50%;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
+	border: 3px solid black;
   transform: translateX(-50%);
 }
 
 .feature_item h4 {
   color: #0b1033;
-  font-family: "Roboto", sans-serif;
+  font-family: "Yatra One", sans-serif;
   font-weight: bold;
   font-size: 24px;
   padding: 45px 0px 20px 0px;
+	border-bottom: 1px solid black;
+	margin-bottom: 10px;
 }
 
 .feature_item p {
   font-size: 15px;
   line-height: 28px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Yatra One", cursive;
   color: #7c8d93;
   font-weight: 500;
   max-width: 290px;
@@ -1146,141 +1163,48 @@ i:before {
 ============================================================================================ */
 /* Best 3d Area css
 ============================================================================================ */
-.best_3d_area {
-  overflow: hidden;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  min-height: 887px;
+
+#team {
+font-family: "Yatra One", cursive;	
 }
 
-.best_3d_area .left_3d {
-  width: calc(50% - 160px);
-  float: left;
-  position: relative;
+#strength {
+	font-family: "Yatra One", cursive;
 }
 
-.best_3d_area .left_3d:before {
-  content: "";
-  background: url(../img/3d-slider-shap.png) no-repeat scroll center center;
-  background-size: cover;
-  min-height: 100%;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 797px;
-  z-index: -1;
+#liable img {
+	margin-top: 30px;
+
+	
 }
 
-.best_3d_area .right_text {
-  width: calc(50% + 160px);
-  float: right;
+#promise {
+	margin-top: 50px;
+	width: 100%;
+	
 }
 
-.shap_slider_inner {
-  max-width: 315px;
-  float: right;
-  margin-right: 160px;
-  margin-top: 300px;
+
+#promise img:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s; 
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite; 
 }
 
-.shap_slider_inner .item {
-  color: #fff;
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
-
-.shap_slider_inner .item img {
-  width: auto;
-}
-
-.shap_slider_inner .item h4 {
-  font-size: 24px;
-  line-height: 28px;
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-}
-
-.shap_slider_inner .item p {
-  font-size: 15px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  line-height: 28px;
-  padding: 25px 0px 55px 0px;
-}
-
-.shap_slider_inner .item .media {
-  vertical-align: middle;
-}
-
-.shap_slider_inner .item .media img {
-  -ms-flex-item-align: center;
-  align-self: center;
-}
-
-.shap_slider_inner .item .media .media-body {
-  padding-left: 18px;
-}
-
-.shap_slider_inner .item .media .media-body h5 {
-  font-size: 15px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  line-height: 28px;
-  color: #0b1033;
-  padding-bottom: 5px;
-}
-
-.shap_slider_inner .item .media .media-body h6 {
-  font-size: 12px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-}
-
-.shap_slider_inner .owl-dots {
-  text-align: right;
-  margin-top: 70px;
-}
-
-.shap_slider_inner .owl-dots .owl-dot {
-  height: 6px;
-  width: 6px;
-  border-radius: 50%;
-  background: #fff;
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.shap_slider_inner .owl-dots .owl-dot:last-child {
-  margin-right: 0px;
-}
-
-.shap_slider_inner .owl-dots .owl-dot.active {
-  background: #97ccfe;
-}
-
-.text_3d {
-  display: inline-block;
-  padding-left: 80px;
-  padding-top: 150px;
-  width: 54%;
-  float: left;
-  padding-right: 5px;
-}
-
-.text_3d p {
-  font-size: 15px;
-  line-height: 28px;
-  color: #7c8d93;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-}
-
-.shap_mobile {
-  padding-top: 85px;
-  float: right;
-  width: 46%;
-  padding-left: 130px;
-}
-
 /* End Best 3d Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
