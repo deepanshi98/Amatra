@@ -99,9 +99,14 @@ body, p, h1, h2, h3, h4, h5, h6 {
   float: none !important;
 }
 
+
+#stu {
+	background: #f4e9d7;
+	
+}
 .p_100 {
   padding-bottom: 80px ;
-	background: url(../img/bg.png);
+	
 }
 
 iframe {
@@ -173,6 +178,19 @@ i:before {
 	font-family: "Yatra One",cursive;
 }
 
+
+#mice {
+	background: #222222;
+	
+	
+}
+
+#xyz {
+	font-family: "Yatra One", cursive;
+	font-size: 40px;
+	letter-spacing: inherit;
+}
+
 /* Main title css
 ============================================================================================ */
 /*---------------------------------------------------- */
@@ -180,37 +198,57 @@ i:before {
 /* Main Menu Area css
 ============================================================================================ */
 .main_menu_area {
-  position: absolute;
+  position: fixed;
   left: 0px;
   top: 0px;
   width: 100%;
 
   z-index: 30;
-  padding: 0px 45px;
+ 
 }
 
 .main_menu_area .navbar {
   padding: 0px;
+
+	 padding: 0px 40px;
+	height: 80px;
   border-radius: 0px;
-  background-color: transparent !important;
+  background-color: white !important;
+}
+
+@media (max-width: 992px) {
+  .main_menu_area .navbar  {
+ 	 padding: 0px 0px;
+	  
+  }
+}
+
+@media (max-width:500px) {
+	.main_menu_area .navbar .navbar-brand img {
+		width: 100px;
+		height: 40px;
+	}	
+	
 }
 
 .main_menu_area .navbar .navbar-toggler {
   border: none;
+	background: black;
   border-radius: 0px;
   padding: 0px;
 }
 
 .main_menu_area .navbar .navbar-toggler span {
   height: 3px;
+	background: white;
   width: 25px;
   display: block;
-  background: #0b1033;
-  margin-bottom: 3px;
+  margin-bottom: 2px;
 }
 
 .main_menu_area .navbar .navbar-toggler span:last-child {
-  margin-bottom: 0px;
+  margin-bottom: 2px;
+	
 }
 
 @media (min-width: 992px) {
@@ -235,7 +273,7 @@ i:before {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   text-transform: uppercase;
-  color: #fff;
+  color: teal;
   letter-spacing: .65px;
   padding: 0px;
   line-height: 118px;
@@ -244,8 +282,13 @@ i:before {
   transition: all 400ms linear 0s;
 }
 
+
+.main_menu_area .navbar .navbar-nav li .nav-link:hover {
+	color: darkblue;
+}
+
 .main_menu_area .navbar .navbar-nav li:last-child {
-  margin-right: 0px;
+  margin-right: 3px;
 }
 
 @media (min-width: 992px) {
@@ -261,7 +304,7 @@ i:before {
     -ms-transform-origin: 50% 0;
     transform-origin: 50% 0;
     min-width: 250px;
-    background: #171717;
+    background: lightgray;
     left: auto;
     right: 0px;
     top: 90%;
@@ -2389,7 +2432,7 @@ font-family: "Yatra One", cursive;
 /* Footer Area css
 ============================================================================================ */
 .footer_widget_area {
-  background: url(../img/footer-bg.jpg) no-repeat scroll center center;
+  background: url(../img/footbg.jpg) no-repeat scroll center center;
   background-size: cover;
   padding: 130px 0px 115px 0px;
 }
