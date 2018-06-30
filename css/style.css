@@ -910,6 +910,10 @@ i:before {
 }
 
 
+#wed {
+	background: url(../img/wedbg1.png) center repeat;
+}
+
 
 .company_skill p {
   font-size: 18px;
