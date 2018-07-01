@@ -224,6 +224,8 @@ i:before {
   }
 }
 
+
+
 @media (max-width:500px) {
 	.main_menu_area .navbar .navbar-brand img {
 		width: 100px;
@@ -1013,6 +1015,11 @@ i:before {
   font-weight: 600;
 }
 
+
+
+#ngo {
+	background: url(../img/ngoo.png) center repeat;
+}
 /* End We Are Company Area css
 ============================================================================================ */
 /* Service Solution Area css
