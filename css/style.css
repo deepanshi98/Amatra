@@ -107,6 +107,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 .p_100 {
   padding-bottom: 80px ;
 	
+	
 }
 
 iframe {
@@ -656,15 +657,16 @@ i:before {
   left: 50%;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
-	border: 3px solid black;
+	
   transform: translateX(-50%);
 }
 
 .feature_item h4 {
-  color: #0b1033;
-  font-family: "Yatra One", sans-serif;
+  color: #100f60;
+	margin-top: 10px; 
+  font-family: 'Vast Shadow', cursive;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 28px;
   padding: 45px 0px 20px 0px;
 	border-bottom: 1px solid black;
 	margin-bottom: 10px;
@@ -682,7 +684,7 @@ i:before {
 }
 
 .feature_item .more_btn {
-  opacity: 0;
+  opacity: 1;
 }
 
 .feature_item:hover {
@@ -710,7 +712,7 @@ i:before {
 
 .service_feature .feature_inner .feature_item .more_btn {
   opacity: 1;
-  background: transparent;
+	  background: transparent;
   border-color: transparent;
   background-image: -webkit-gradient(linear, left top, right top, from(#6ebdfe), to(#9b8aff));
   background-image: -webkit-linear-gradient(left, #6ebdfe, #9b8aff);
@@ -727,6 +729,7 @@ i:before {
 
 .service_feature .feature_inner .feature_item:hover .more_btn {
   color: #fff;
+	text-decoration: none;
   background-image: -webkit-gradient(linear, left top, right top, from(#70bafe), color-stop(51%, #998dff), to(#70bafe));
   background-image: -webkit-linear-gradient(left, #70bafe 0%, #998dff 51%, #70bafe 100%);
   background-image: -o-linear-gradient(left, #70bafe 0%, #998dff 51%, #70bafe 100%);
@@ -914,6 +917,10 @@ i:before {
 	background: url(../img/wedbg1.png) center repeat;
 }
 
+#serv {
+	background: url(../img/servbg.png) center repeat;
+}
+
 
 .company_skill p {
   font-size: 18px;
@@ -1011,7 +1018,7 @@ i:before {
 /* Service Solution Area css
 ============================================================================================ */
 .service_solution_area {
-  background: url(../img/bg.jpg) no-repeat fixed center right;
+  background: url(../img/banner/experience.png) no-repeat fixed center right;
   background-size: cover;
   position: relative;
   z-index: 3;
@@ -1103,20 +1110,6 @@ i:before {
   color: #7c8d93;
 }
 
-.service_feature .container .feature_inner .feature_item .f_icon img:hover {
-	  
-    filter: none;
-      -webkit-filter: grayscale(0);
-    
-}
-
-
-.service_feature .container .feature_inner .feature_item .f_icon img {
-    /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
-      filter: gray; /* IE5+ */
-      -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
-      -webkit-transition:  1s linear;  
-    }
 
 
 /* End Service Solution Area css
