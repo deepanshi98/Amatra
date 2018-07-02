@@ -687,6 +687,7 @@ i:before {
 
 .feature_item .more_btn {
   opacity: 1;
+	margin-bottom: 40px;
 }
 
 .feature_item:hover {
@@ -1294,7 +1295,10 @@ font-family: "Yatra One", cursive;
   font-size: 20px;
 }
 
+#aa {
+		background: url(../img/wedbg1.png) center repeat;
 
+}
 
 #aa4 {
 	background-size: cover;
@@ -1341,8 +1345,11 @@ font-family: "Yatra One", cursive;
     text-align: center;
     text-decoration: none;
   
+
 }
-}
+
+
+
 #image2 {
 	opacity: 1;
 	height: auto;
@@ -2456,6 +2463,11 @@ font-family: "Yatra One", cursive;
   margin-bottom: 0px;
 }
 
+
+
+#stuchi {
+	background: url(../img/banner/stuchibg.jpg) center repeat;
+}
 /* End Blog Main Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
@@ -2463,9 +2475,10 @@ font-family: "Yatra One", cursive;
 /* Footer Area css
 ============================================================================================ */
 .footer_widget_area {
-  background: url(../img/footbg.jpg) no-repeat scroll center center;
+  background: url(../img/footer-bg.jpg);
   background-size: cover;
   padding: 130px 0px 115px 0px;
+	border-top: 2px solid lightgrey;
 }
 
 .f_title {
@@ -2473,8 +2486,8 @@ font-family: "Yatra One", cursive;
 }
 
 .f_title h3 {
-  font-size: 16px;
-  color: #fff;
+  font-size: 18px;
+  color:rebeccapurple;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
 }
@@ -2484,35 +2497,19 @@ font-family: "Yatra One", cursive;
 }
 
 .f_about_widget img {
-  padding-bottom: 55px;
+  padding-bottom: 60px;
 }
 
 .f_about_widget p {
   font-size: 15px;
-  line-height: 28px;
-  color: #fff;
+  line-height: 29px;
+  color:bisque;
+	text-align: justify;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
 }
 
-.f_insta_widget ul {
-  overflow: hidden;
-  margin: -1px;
-}
 
-.f_insta_widget ul li {
-  width: calc(100% / 4);
-  float: left;
-}
-
-.f_insta_widget ul li a {
-  display: inline-block;
-  padding: 1px;
-}
-
-.f_insta_widget ul li a img {
-  width: 100%;
-}
 
 .f_subs_widget .input-group {
   display: block;
@@ -2559,6 +2556,27 @@ font-family: "Yatra One", cursive;
   color: #9b9b9b;
 }
 
+#dom {
+	background: url(../img/banner/dombg.jpg) repeat center ;
+}
+
+#int {
+		background: url(../img/banner/intbg.jpg) repeat center ;
+
+}
+
+#domtext{ 
+
+font-family: 'Josefin Sans', sans-serif;
+font-size: 5vw;
+padding: 10px;
+	
+}
+#d {
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
 .f_subs_widget .input-group .input-group-btn {
   margin-left: 0px;
   display: block;
@@ -2572,6 +2590,17 @@ font-family: "Yatra One", cursive;
 
 .f_subs_widget .input-group .input-group-btn .submit_btn:hover {
   border-color: #8cc4fb;
+}
+
+#links {
+	text-decoration: none;
+	color: bisque;
+}
+
+#links a:hover {
+	color: rebeccapurple;
+	text-decoration: underline;
+	font-size: 20px;
 }
 
 .footer_copyright {
@@ -2663,4 +2692,9 @@ font-family: "Yatra One", cursive;
   100% {
     margin-left: -2130px;
   }
+}
+
+
+#stujap {
+	background: url(../img/banner/stujapbg.jpg) center repeat;
 }
