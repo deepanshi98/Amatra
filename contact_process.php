@@ -1,6 +1,6 @@
 <?php
 
-    $to = "rockybd1995@gmail.com";
+    $to = "info@amatratravel.com";
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
     $subject = $_REQUEST['subject'];
@@ -13,10 +13,10 @@
 	$headers .= "MIME-Version: 1.0\r\n";
 	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
-    $subject = "You have a message from your Sierra.";
+    $subject = "You have a message from your website.";
 
-    $logo = '#';
-    $link = '#';
+    $logo = 'img/image4.jpg';
+    $link = 'www.amatra.com';
 
 	$body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Express Mail</title></head><body>";
 	$body .= "<table style='width: 100%;'>";
