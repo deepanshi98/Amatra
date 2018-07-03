@@ -48,6 +48,15 @@ ul {
   padding: 0px;
 }
 
+
+::placeholder {
+	color: black;
+}
+
+#stuam {
+	background: url(../img/banner/stuam.jpg) center repeat;
+}
+
 a {
   text-decoration: none;
 }
