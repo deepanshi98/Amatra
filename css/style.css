@@ -188,6 +188,12 @@ i:before {
 	font-family: "Yatra One",cursive;
 }
 
+#con {
+	font-family: 'Fredoka One', cursive;
+	color: #81a0bb;
+	letter-spacing: 5px;
+}
+
 
 #mice {
 	background: #222222;
@@ -1675,20 +1681,33 @@ font-family: "Yatra One", cursive;
 
 .touch_details h5 {
   font-size: 18px;
-  color: #97ccfe;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
+  color: #c5e5d9;
+ font-family: 'Fredoka One', cursive;
+ font-weight: 500;
   display: block;
   padding: 50px 0px 20px 0px;
 }
 
 .touch_details h4 {
   font-size: 30px;
-  color: #0b1033;
+  color: #81a0bb;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
 }
 
+#stunasa {
+	background: url(../img/banner/usaabg.jpg) repeat center;
+}
+
+#stupol {
+	background: url(../img/banner/polbg.jpg) repeat center;
+}
+
+
+#stukor {
+		background: url(../img/banner/korbg.JPG)repeat center ;
+
+}
 /* End Get In Touch Area css
 ============================================================================================ */
 /* World Map Area css
@@ -2663,17 +2682,17 @@ padding: 10px;
 }
 
 .photo-roll {
-  height: 233px;
-  width: 3500px;
+  height: 243px;
+  width: 6000px;
   margin-bottom: 5px;
   font-size: 0;
 }
 .photo-roll img {
   margin-bottom: 10px;
   margin-right: 5px;
-  height: 233px;
-  width: 350px;
-  transition: all 0.5s ease;
+  height: 220px;
+  width: 238px;
+  transition: all 0.3s ease;
 }
 .photo-roll img:hover {
   -webkit-transform: scale(1.2);
@@ -2681,8 +2700,8 @@ padding: 10px;
   cursor: pointer;
 }
 .photo-roll img:first-child {
-  -webkit-animation: bannermove 30s linear infinite;
-          animation: bannermove 30s linear infinite;
+  -webkit-animation: bannermove 20s linear infinite;
+          animation: bannermove 20s linear infinite;
 }
 
 /* Keyframe animations*/
@@ -2691,7 +2710,7 @@ padding: 10px;
     margin-left: 0px;
   }
   100% {
-    margin-left: -2130px;
+    margin-left: -1830px;
   }
 }
 @keyframes "bannermove" {
@@ -2699,7 +2718,7 @@ padding: 10px;
     margin-left: 0px;
   }
   100% {
-    margin-left: -2130px;
+    margin-left: -1830px;
   }
 }
 
